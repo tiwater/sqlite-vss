@@ -1,7 +1,7 @@
 // yoyo
 package vss
 
-// #cgo LDFLAGS: -lsqlite_vss0 -lfaiss_avx2
+// #cgo LDFLAGS: -lsqlite_vss0 -lfaiss
 // #cgo linux,amd64 LDFLAGS: -lm -lgomp -latlas -lblas -llapack
 // #cgo CFLAGS: -DSQLITE_CORE
 // #include <sqlite3ext.h>
